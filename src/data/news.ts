@@ -1,0 +1,91 @@
+import type { NewsItem, EventItem } from './types';
+
+export const newsItems: NewsItem[] = [
+  {
+    id: 'n1',
+    category: 'Research',
+    title: 'AI Safety Lab publishes new interpretability benchmark',
+    excerpt: 'Researchers from the School of Computer Science & AI released an open benchmark for evaluating how transparently language models explain their own decisions.',
+    date: '2026-08-24',
+    readTime: '4 min read',
+  },
+  {
+    id: 'n2',
+    category: 'Global Network',
+    title: 'Singapore Global Center opens new Fintech Immersion Studio',
+    excerpt: 'The expanded studio space will host joint coursework between the School of Data Science and School of Business & Economics starting next term.',
+    date: '2026-08-18',
+    readTime: '3 min read',
+  },
+  {
+    id: 'n3',
+    category: 'Student Life',
+    title: 'Student robotics team places second at Pan-Asia Robotics Challenge',
+    excerpt: 'A twelve-member team from the Robotics & Mechatronics Lab represented the university at the annual regional innovation competition.',
+    date: '2026-08-10',
+    readTime: '3 min read',
+  },
+  {
+    id: 'n4',
+    category: 'Admissions',
+    title: 'Applications open for January intake across all Global Centers',
+    excerpt: 'Prospective students can now begin the admissions journey for programs beginning at the Main Campus and all nine Global Centers.',
+    date: '2026-08-02',
+    readTime: '2 min read',
+  },
+  {
+    id: 'n5',
+    category: 'Research',
+    title: 'Climate Technology researchers begin pilot with municipal partner',
+    excerpt: 'A new carbon-capture materials pilot moves from the lab to a real deployment site in partnership with a regional municipal energy authority.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+  },
+  {
+    id: 'n6',
+    category: 'Leadership',
+    title: 'University announces new Innovation & Technology roadmap',
+    excerpt: 'The Office of the Vice Chancellor for Innovation & Technology outlined a five-year plan for expanding digital-campus infrastructure across all centers.',
+    date: '2026-07-15',
+    readTime: '4 min read',
+  },
+];
+
+export const eventItems: EventItem[] = [
+  {
+    id: 'e1',
+    title: 'Global Innovation Summit',
+    date: '2026-10-14',
+    time: '09:00',
+    location: 'Main Campus — Innovation Hub',
+    category: 'Innovation',
+    countdownTarget: '2026-10-14T09:00:00',
+  },
+  {
+    id: 'e2',
+    title: 'International Cultural Festival',
+    date: '2026-09-28',
+    time: '16:00',
+    location: 'Main Campus — Green Quad',
+    category: 'Student Life',
+    countdownTarget: '2026-09-28T16:00:00',
+  },
+  {
+    id: 'e3',
+    title: 'AI & Ethics Research Symposium',
+    date: '2026-09-20',
+    time: '10:00',
+    location: 'Singapore Global Center',
+    category: 'Research',
+    countdownTarget: '2026-09-20T10:00:00',
+  },
+  {
+    id: 'e4',
+    title: 'Admissions Open House — January Intake',
+    date: '2026-09-12',
+    time: '11:00',
+    location: 'All Campuses (Hybrid)',
+    category: 'Admissions',
+    countdownTarget: '2026-09-12T11:00:00',
+  },
+];
